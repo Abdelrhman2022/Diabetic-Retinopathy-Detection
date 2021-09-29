@@ -2,6 +2,8 @@ from tensorflow import keras
 import keras.preprocessing.image as image
 import numpy as np
 
+#https://drive.google.com/file/d/1NG-UuGP_q3S5CYuopvNLBeuaytsC8osy/view
+
 # Recreate the exact same model, including its weights and the optimizer
 model = keras.models.load_model('/content/drive/MyDrive/data/LastModel.h5')
 
